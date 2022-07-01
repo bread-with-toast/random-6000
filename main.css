@@ -6,3 +6,19 @@
 body, button, a {
     font-family: "font";
 }
+
+img {
+    border-radius: 50px;
+}
+
+button {
+    padding: 10px;
+    background-color: rgb(46, 76, 147);
+    color: white;
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: rgb(31, 52, 103);
+}
+
