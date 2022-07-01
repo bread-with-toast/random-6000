@@ -14,6 +14,6 @@ function random() {
         txt.innerHTML = "Dancing for me is fun! <br> <p><i>-Cat C<i><p>"
     } else if (random == 4) {
         img.src = "catD.jpg"
-        txt.innerHTML = "I sorta like gorillas, I mean c'mon!" <br> <p><i>-Cat D<i><p>"
+        txt.innerHTML = "I sorta like gorillas, I mean c'mon! <br> <p><i>-Cat D<i><p>"
     } 
 }
