@@ -24,14 +24,14 @@ function random() {
     } else if (random == 5) {
         img.src = "gorillaE.jpg"
         txt.innerHTML = "Gorilla life, ape life. <br> <i>-Gorilla E</i>"
-        document.getElementById("main").style.backgroundColor = "#ddb0ff"
+        document.getElementById("main").style.backgroundColor = "#97E9C0"
     } else if (random == 6) {
         img.src = "gorillaF.jpg"
         txt.innerHTML = "Time to touch grass! <br> <i>-Gorilla F</i>"
-        document.getElementById("main").style.backgroundColor = "#ddb0ff"
+        document.getElementById("main").style.backgroundColor = "#F4A2BF"
     } else if (random == 7) {
         img.src = "gorillaG.jpg"
         txt.innerHTML = "Is that a human I spy?. <br> <i>-Gorilla G</i>"
-        document.getElementById("main").style.backgroundColor = "#ddb0ff"
+        document.getElementById("main").style.backgroundColor = "#A8A2F4"
     } 
 }
