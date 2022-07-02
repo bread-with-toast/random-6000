@@ -6,20 +6,20 @@ function random() {
     let txt = document.getElementById("txt")
 
     if (random == 1) {
-        img.src = "catA.jpg"
-        txt.innerHTML = "Food is food! <br> <i>-Cat A</i>"
+        img.src = "gorillaA.jpg"
+        txt.innerHTML = "Food, we need it! <br> <i>-Gorilla A</i>"
         document.getElementById("main").style.backgroundColor = "antiquewhite"
     } else if (random == 2) {
-        img.src = "catB.jpg"
-        txt.innerHTML = "When you drink water, you drink water! <br> <i>-Cat B</i>"
+        img.src = "gorillaB.jpg"
+        txt.innerHTML = "Ape life is good. <br> <i>-Gorilla B</i>"
         document.getElementById("main").style.backgroundColor = "#d6ffda"
     } else if (random == 3) {
-        img.src = "catC.jpg"
-        txt.innerHTML = "Dancing for me is fun! <br> <i>-Cat C</i>"
+        img.src = "gorillaC.jpg"
+        txt.innerHTML = "Grass looks weird! <br> <i>-Gorilla C</i>"
         document.getElementById("main").style.backgroundColor = "#c9cdff"
     } else if (random == 4) {
-        img.src = "catD.jpg"
-        txt.innerHTML = "I sorta like gorillas, I mean c'mon! <br> <i>-Cat D</i>"
+        img.src = "gorillaD.jpg"
+        txt.innerHTML = "I have no idea what to say. <br> <i>-Gorilla D</i>"
         document.getElementById("main").style.backgroundColor = "#ddb0ff"
     } 
 }

@@ -6,20 +6,20 @@ function random() {
     let txt = document.getElementById("txt")
 
     if (random == 1) {
-        img.src = "catA.jpg"
-        txt.innerHTML = "Food is food! <br> <i>-Cat A</i>"
+        img.src = "dogA.jpg"
+        txt.innerHTML = "Woof woof! <br> <i>-Dog A</i>"
         document.getElementById("main").style.backgroundColor = "antiquewhite"
     } else if (random == 2) {
-        img.src = "catB.jpg"
-        txt.innerHTML = "When you drink water, you drink water! <br> <i>-Cat B</i>"
+        img.src = "dogB.jpg"
+        txt.innerHTML = "When a dog is born, that dog will be a dog! <br> <i>-Dog B</i>"
         document.getElementById("main").style.backgroundColor = "#d6ffda"
     } else if (random == 3) {
-        img.src = "catC.jpg"
-        txt.innerHTML = "Dancing for me is fun! <br> <i>-Cat C</i>"
+        img.src = "dogC.jpg"
+        txt.innerHTML = "Currently, there is a picture of a dog! <br> <i>-Dog C</i>"
         document.getElementById("main").style.backgroundColor = "#c9cdff"
     } else if (random == 4) {
-        img.src = "catD.jpg"
-        txt.innerHTML = "I sorta like gorillas, I mean c'mon! <br> <i>-Cat D</i>"
+        img.src = "dogD.jpg"
+        txt.innerHTML = "Making this is so fun and dull! <br> <i>-Dog D</i>"
         document.getElementById("main").style.backgroundColor = "#ddb0ff"
     } 
 }
