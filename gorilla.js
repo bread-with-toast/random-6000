@@ -1,7 +1,7 @@
 document.getElementById("main").style.backgroundColor = "antiquewhite"
 
 function random() {
-    let random = Math.floor(Math.random() * 5)
+    let random = Math.floor(Math.random() * 8)
     let img = document.getElementById("img")
     let txt = document.getElementById("txt")
 
@@ -20,6 +20,18 @@ function random() {
     } else if (random == 4) {
         img.src = "gorillaD.jpg"
         txt.innerHTML = "I have no idea what to say. <br> <i>-Gorilla D</i>"
+        document.getElementById("main").style.backgroundColor = "#ddb0ff"
+    } else if (random == 5) {
+        img.src = "gorillaE.jpg"
+        txt.innerHTML = "Gorilla life, ape life. <br> <i>-Gorilla E</i>"
+        document.getElementById("main").style.backgroundColor = "#ddb0ff"
+    } else if (random == 6) {
+        img.src = "gorillaF.jpg"
+        txt.innerHTML = "Time to touch grass! <br> <i>-Gorilla F</i>"
+        document.getElementById("main").style.backgroundColor = "#ddb0ff"
+    } else if (random == 7) {
+        img.src = "gorillaG.jpg"
+        txt.innerHTML = "Is that a human I spy?. <br> <i>-Gorilla G</i>"
         document.getElementById("main").style.backgroundColor = "#ddb0ff"
     } 
 }
