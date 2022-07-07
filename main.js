@@ -1,7 +1,7 @@
 document.getElementById("main").style.backgroundColor = "antiquewhite"
 
 function random() {
-    let random = Math.floor(Math.random() * 5)
+    let random = Math.floor(Math.random() * 8)
     let img = document.getElementById("img")
     let txt = document.getElementById("txt")
 
@@ -18,6 +18,18 @@ function random() {
         txt.innerHTML = "Dancing for me is fun! <br> <i>-Cat C</i>"
         document.getElementById("main").style.backgroundColor = "#c9cdff"
     } else if (random == 4) {
+        img.src = "catD.jpg"
+        txt.innerHTML = "I sorta like gorillas, I mean c'mon! <br> <i>-Cat D</i>"
+        document.getElementById("main").style.backgroundColor = "#ddb0ff"
+    } else if (random == 5) {
+        img.src = "catD.jpg"
+        txt.innerHTML = "I sorta like gorillas, I mean c'mon! <br> <i>-Cat D</i>"
+        document.getElementById("main").style.backgroundColor = "#ddb0ff"
+    } else if (random == 6) {
+        img.src = "catD.jpg"
+        txt.innerHTML = "I sorta like gorillas, I mean c'mon! <br> <i>-Cat D</i>"
+        document.getElementById("main").style.backgroundColor = "#ddb0ff"
+    } else if (random == 7) {
         img.src = "catD.jpg"
         txt.innerHTML = "I sorta like gorillas, I mean c'mon! <br> <i>-Cat D</i>"
         document.getElementById("main").style.backgroundColor = "#ddb0ff"

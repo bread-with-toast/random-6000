@@ -9,20 +9,23 @@
     <link rel="icon" type="" href="icon2.png">
     <title>Random 6000</title>
 </head>
-<body id="main">
+<body id="main" class="w3-container">
     <h1>Random 6000</h1>
-    <ul>
-        <li><a href="index.html">Cats</a></li>
-        <li><a href="dog.html">Dogs</a></li>
-        <li><a href="gorilla.html">Gorillas</a></li>
-        <li><a href="updates.html">Recent Updates</a></li>
-    </ul>
 
-    <img id="img" src="dogA.jpg" alt="" width="500px">
+    <div class="w3-bar w3-light-gray">
+        <a href="index.html" class="w3-button">Cats</a>
+        <a href="dog.html" class="w3-button w3-teal">Dogs</a>
+        <a href="gorilla.html" class="w3-button">Gorillas</a>
+        <a href="updates.html" class="w3-button">Recent Updates</a>
+    </div>
+    
+    <br><br>
+
+    <img id="img" class="w3-round" src="dogA.jpg" alt="" width="500px">
     <h1 id="txt">Woof woof! <br> <i>-Dog A</i></h1>
-    <button onclick="random()">Randomise!</button>
+    <button class="w3-teal w3-button w3-round" onclick="random()">Randomise!</button>
 
-    <footer>
+    <footer style="margin-top: 7%">
         <a href="thankyou.html">Thank You</a>
         <p>Version 0.8</p>
         <p>(C) bread_with_toast 2022 All Rights Reserved</p>
